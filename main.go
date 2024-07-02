@@ -76,8 +76,9 @@ func main() {
 	// fmt.Println(add, mul)
 
 	// 8. Arrays
+	// arrays.SimpleArray()
 
-	arrays.SimpleArray()
+		arrays.CreateArray()
 
 }
 
