@@ -1,4 +1,4 @@
-module e
+module example/Go-api-tech
 
 go 1.22.4
 

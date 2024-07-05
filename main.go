@@ -1,20 +1,24 @@
 package main
 
-import "e/arrays"
+import (
+	"e/arrays"
 
-// datatypeconversion "e/DataType_Conversion"
-// css "e/conditionalStatements"
-// "e/functions"
-// "e/pointers"
-// "fmt"
-// "e/hello"
-// loop "e/looping"
-// "fmt"
-// "log"
-
-func main() {
-	// fmt.Println("Hello from techie..!!");
-
+	// "e/reference"	
+	// "e/arrays"
+	// datatypeconversion "e/DataType_Conversion"
+	// css "e/conditionalStatements"
+	// "e/functions"
+	// "e/pointers"
+	// "fmt"
+	// "e/hello"
+	// loop "e/looping"
+	// "fmt"
+	// "log"
+)
+	
+	func main() {
+		// fmt.Println("Hello from techie..!!");
+		
 	// fmt.Println(hello.Hello("Surya"));
 
 	// log.SetPrefix("Greetings: ")
@@ -77,8 +81,18 @@ func main() {
 
 	// 8. Arrays
 	// arrays.SimpleArray()
+	// arrays.CreateArray()
+	// arrays.InitializeArray()
+	// arrays.InitializeArrayWithoutSpecifyingLength()
+	// arrays.Slice()
 
-		arrays.CreateArray()
+	arrays.ItemExistsCheck()
+
+
+	// 9. Data and reference
+	// reference.CopyArray()
+
+
 
 }
 
