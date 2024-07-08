@@ -1,9 +1,12 @@
 package main
 
 import (
-	"e/arrays"
-
-	// "e/reference"	
+	// maplearn "e/mapLearn"
+	"e/structs"
+	// panicandrecover "e/panicAndRecover"
+	// "fmt"
+	// "e/arrays"
+	// "e/reference"
 	// "e/arrays"
 	// datatypeconversion "e/DataType_Conversion"
 	// css "e/conditionalStatements"
@@ -50,6 +53,8 @@ import (
 	/*
 		4. Data Type Conversion
 		datatypeconversion.FunctionExec()
+		datatypeconversion.IntLimitCheck()
+		
 	*/ 
 
 	// 5. Looping Conditions
@@ -85,13 +90,30 @@ import (
 	// arrays.InitializeArray()
 	// arrays.InitializeArrayWithoutSpecifyingLength()
 	// arrays.Slice()
+	// arrays.ItemExistsCheck()
+	// arrays.RemoveSlice()
+	// arrays.AppendToExistingSlice()
 
-	arrays.ItemExistsCheck()
-
+	// arrays.CheckIfItemExists()
 
 	// 9. Data and reference
 	// reference.CopyArray()
 
+	// 10. Panic and recover
+	// panicandrecover.Panic()
+	// fmt.Print(panicandrecover.Division(20, 0))
+
+	// 11. Map in Go
+	// maplearn.MapInitialize()
+	// maplearn.SortMapKeys()
+	// maplearn.SortMapValues()
+
+	// 12. Struct in Go
+	// structs.StructInitialize()
+	// structs.CreateUser()
+	// structs.CreateUserUsingStructLiteral()
+
+	structs.CreateEmployee()
 
 
 }
