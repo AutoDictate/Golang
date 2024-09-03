@@ -19,7 +19,7 @@ func Test_Variable() {
 }
 
 func Value() {
-	
+
 	var num int
 
 	var name string
@@ -35,24 +35,27 @@ func Value() {
 }
 
 const (
-	cname = "Surya"
-	cage = 21
+	cname    = "Surya"
+	cage     = 21
 	caddress = "Salem"
 )
+
 func ConstVariable() {
 
-	fmt.Printf("Constant name : %v",cname)
+	fmt.Printf("Constant name : %v", cname)
 	fmt.Println()
-	fmt.Printf("Constant age : %v",cage)
+	fmt.Printf("Constant age : %v", cage)
 	fmt.Println()
-	fmt.Printf("Constant address : %v",caddress)
+	fmt.Printf("Constant address : %v", caddress)
 	fmt.Println()
-	
+
 }
 
 func MultipleVariable() {
 
 	var name, age string = "Kyros", "108"
+
+	age, name = "108", "Kyros"
 
 	fmt.Println(name)
 	fmt.Println(age)

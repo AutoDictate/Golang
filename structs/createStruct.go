@@ -14,29 +14,32 @@ type User struct {
 	}
 }
 
-func CreateUser() {
+func (u *User) CreateUser() *User {
 
-	var user1 User
+	u.name = "Surya"
+	u.age = 21
+	u.email = "surya@gmail.com"
+	u.address = "Salem"
+	u.Role.admin = true
+	u.Role.manager = false
 
-	user1.name = "Surya"
-	user1.age = 21
-	user1.email = "surya@gmail.com"
-	user1.address = "Salem"
-	user1.Role.admin = true
-	user1.Role.manager = false
+	fmt.Println(u)
 
-	fmt.Println(user1)
+	return u
 }
 
 func CreateUserUsingStructLiteral() {
 
-	var user2 = User{
-		name: "Surya",
-		age: 21,
+	user2 := User{
+		name:    "Surya",
+		age:     21,
 		address: "Chennai",
-		email: "Zoro@gmail.com",
-		Role: struct{admin bool; manager bool}{
-			admin: true,
+		email:   "Zoro@gmail.com",
+		Role: struct {
+			admin   bool
+			manager bool
+		}{
+			admin:   true,
 			manager: false,
 		},
 	}
