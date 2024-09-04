@@ -8,6 +8,9 @@
 *.iml
 *.exe
 
+#vscode
+.vscode
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
